@@ -1,0 +1,24 @@
+# Datasets — the quark/gluon jet dataset is ~700 MB and is downloaded, not
+# versioned. See each task's README for where to get it.
+*.hdf5
+*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
